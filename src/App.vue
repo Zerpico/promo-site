@@ -72,7 +72,7 @@ export default {
   margin-top: 60px;
   max-width: 980px;
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 .topic {
