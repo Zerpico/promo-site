@@ -1,13 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>promo site</title>
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
-  </head>
-  <body>    
-    <div id="app"></div>    
-    <script src="/dist/build.js"></script>
-  </body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    
+    <title>promo site</title>	
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">  
+	<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+	<link href="./assets/style.css" rel="stylesheet" />
+    <link rel="icon" href="favicon.ico">
+</head>	
+<body>    
+    <div id="nescss">
+	<div class="container">
+	<div class="main-content">
+	<section class="topic" id="about">
+		<h2 id="about"><a href="#about">#</a>Привет, я Илья</h2> 
+		<p>Backend Developer C#</p> 
+		<p>WPF Developer C#</p>
+	</section> 
+	
+	<section class="topic">
+		<p>Увлечен программированием, вы можете написать мне в</p> 
+		<p>
+			<a href="mailto:zerpico@yandex.ru"><img width="24" height="24" src="./assets/email.png">  zerpico@yandex.ru</a> 
+			<a href="https://t.me/zerpico"><img width="24" height="24" src="./assets/telegram.png">  Telegram</a>
+		</p>
+	</section> 
+	
+	<section class="topic">
+	</section> 
+	
+	<section class="nes-container with-title">
+		<h3 class="title">Навыки</h3> 
+		<div id="textarea" class="item">
+			<p>C#, .Net Core, ASP.NET Core/MVC/Web API, EF 6.0</p> 
+			<p>EF ORM, Dapper ORM, WPF, MVVM, Catel</p> 
+			<p>MSSQL, PGSQL, SQLite, Firebird</p> 
+			<p>Docker, Git</p>
+		</div>
+	</section> 
+	
+	<section class="nes-container with-title">
+		<h3 class="title">Другие навыки</h3> 
+		<div id="textarea" class="item">
+			<label>Фото- Видеосъемка</label> 
+			<progress value="75" max="100" class="nes-progress is-primary"></progress>
+		</div> 
+		<div id="textarea" class="item">
+			<label>Прямые руки</label> 
+			<progress value="70" max="100" class="nes-progress is-primary"></progress>
+		</div> 
+		<div id="textarea" class="item">
+			<label>Пунктуальность</label> 
+			<progress value="60" max="100" class="nes-progress is-warning"></progress>
+		</div> 
+		<div id="textarea" class="item">
+			<label>Занудство</label> 
+			<progress value="150" max="100" class="nes-progress nes-progress-big is-error"></progress>
+		</div>
+	</section>
+	
+	<section class="nes-container with-title">
+		<h3 class="title">Открытые проекты</h3> 
+		<div id="textarea" class="item">
+			<p><a href="https://retro.khudaev.ru/"><img src="./assets/retro.png"/ style="height:3rem"> Ретро Лаунчер </a></p> 			
+		</div>
+	</section> 
+	
+	</div>
+	</div>
+	</div> 
+</body>
 </html>
